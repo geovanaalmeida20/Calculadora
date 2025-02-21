@@ -8,8 +8,7 @@ const App = () => {
   const [resultado, setResultado] = useState(null);
 
 const somar = () => {
-  const soma = pareFloat(numero01);
-  parseFloat(numero02);
+  const soma = parseFloat(numero01) + parseFloat(numero02);
   setResultado(soma);
 };
 
